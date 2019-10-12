@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="Proyecto_2parcial.Ensaladas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto_2parcial"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid x:Name="ensaladas" HorizontalAlignment="Left" Height="440" VerticalAlignment="Top" Width="790" Background="White">
+            <TextBlock x:Name="etiquetatamaño" HorizontalAlignment="Left" Margin="101,45,0,0" TextWrapping="Wrap" Text="Tamaño:" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="16" Width="61"/>
+            <ComboBox x:Name="infotamaño" HorizontalAlignment="Left" Margin="185,40,0,0" VerticalAlignment="Top" Width="95" Height="21">
+                <ComboBoxItem Content="Chica"/>
+                <ComboBoxItem Content="Mediana"/>
+                <ComboBoxItem Content="Grande"/>
+
+            </ComboBox>
+            <TextBlock x:Name="etiquetaingrediente1" HorizontalAlignment="Left" Margin="94,84,0,0" TextWrapping="Wrap" Text="Cantidad" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="16" Width="57"/>
+            <TextBox x:Name="infoingrediente1" HorizontalAlignment="Left" Height="17" Margin="185,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextChanged="infoingrediente1_TextChanged"/>
+
+            <TextBlock  x:Name="etiquetaingrediente2" HorizontalAlignment="Left" Margin="94,120,0,0" TextWrapping="Wrap" Text="Aderezos" VerticalAlignment="Top" Width="81" Height="16"/>
+            <TextBox x:Name="infoingrediente2" HorizontalAlignment="Left" Height="17" Margin="185,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextChanged="infoingrediente2_TextChanged"/>
+
+            <TextBlock  x:Name="etiquetaingrediente3" HorizontalAlignment="Left" Margin="86,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" Text="Acompañantes" Height="16"/>
+            <TextBox x:Name="infoingrediente3" HorizontalAlignment="Left" Height="16" Margin="185,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextChanged="infoingrediente3_TextChanged"/>
+
+            <TextBlock x:Name="etiquetaqueso" HorizontalAlignment="Left" Margin="101,245,0,0" TextWrapping="Wrap" Text="Nota extra" VerticalAlignment="Top" Height="16" Width="71"/>
+            <TextBox x:Name="infoqueso" HorizontalAlignment="Left" Height="17" Margin="185,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextChanged="infoqueso_TextChanged"/>
+
+
+            <TextBlock x:Name="etiquetanota" HorizontalAlignment="Left" Margin="101,202,0,0" TextWrapping="Wrap" Text="Guarnicion" VerticalAlignment="Top" Height="15" Width="72"/>
+            <TextBox x:Name="infonota" HorizontalAlignment="Left" Height="16" Margin="185,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextChanged="infonota_TextChanged"/>
+
+            <TextBlock HorizontalAlignment="Left" Margin="373,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Text="Baguette:" Height="19" Width="55"/>
+
+            <TextBlock HorizontalAlignment="Left" Margin="373,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="24" Width="74"><Run Text="Ingredientes"/><Run Text=":"/></TextBlock>
+            <CheckBox Content="Pollo" HorizontalAlignment="Left" Margin="373,119,0,0" VerticalAlignment="Top" Width="59" Height="22"/>
+            <CheckBox Content="Camaron" HorizontalAlignment="Left" Margin="463,121,0,0" VerticalAlignment="Top" Height="20" Width="72"/>
+            <CheckBox Content="Atun" HorizontalAlignment="Left" Margin="575,121,0,0" VerticalAlignment="Top" Height="20" Width="60"/>
+            <CheckBox Content="Salmon" HorizontalAlignment="Left" Margin="373,146,0,0" VerticalAlignment="Top" Height="19" Width="68"/>
+            <CheckBox Content="Jamon" HorizontalAlignment="Left" Margin="463,146,0,0" VerticalAlignment="Top" Height="19" Width="60"/>
+
+            <TextBlock x:Name="restriccion" HorizontalAlignment="Left" Margin="373,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" Height="35"><Run Text="*"/><Run Text="Se deben de llenar todos los campos para continuar"/></TextBlock>
+            <Button Content="Agregar" HorizontalAlignment="Left" Margin="419,252,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click" Height="24"/>
+            <Button Content="Cancelar" HorizontalAlignment="Left" Margin="586,252,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_1" Height="24" RenderTransformOrigin="0.094,-0.833"/>
+            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="443,51,0,0" VerticalAlignment="Top" Width="80" Height="18"/>
+            <RadioButton Content="No" HorizontalAlignment="Left" Margin="538,51,0,0" VerticalAlignment="Top" Height="25" Width="52"/>
+
+
+
+
+
+
+        </Grid>
+
+
+    </Grid>
+</UserControl>
