@@ -34,7 +34,7 @@
             <TextBlock HorizontalAlignment="Left" Margin="354,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Text="Empanizado:" Height="14" Width="73"/>
 
             <TextBlock HorizontalAlignment="Left" Margin="368,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="16" Width="71"><Run Text="Ingredientes"/><Run Text=":"/></TextBlock>
-            <CheckBox Content="Surimi" HorizontalAlignment="Left" Margin="368,97,0,0" VerticalAlignment="Top" Width="59" Height="14"/>
+            <CheckBox Content="Surimi" HorizontalAlignment="Left" Margin="368,97,0,0" VerticalAlignment="Top" Width="59" Height="14"  IsChecked="True"/>
             <CheckBox Content="Camaron" HorizontalAlignment="Left" Margin="457,98,0,0" VerticalAlignment="Top" Height="29" Width="73"/>
             <CheckBox Content="Carne" HorizontalAlignment="Left" Margin="565,98,0,0" VerticalAlignment="Top" Height="13" Width="66"/>
             <CheckBox Content="Salmon" HorizontalAlignment="Left" Margin="368,132,0,0" VerticalAlignment="Top" Height="23" Width="71"/>
@@ -43,7 +43,7 @@
             <TextBlock x:Name="restriccion" HorizontalAlignment="Left" Margin="368,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="22"><Run Text="*"/><Run Text="Se deben de llenar todos los campos para continuar"/></TextBlock>
             <Button Content="Agregar" HorizontalAlignment="Left" Margin="438,226,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click" Height="29"/>
             <Button Content="Cancelar" HorizontalAlignment="Left" Margin="565,226,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_1" Height="29"/>
-            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="457,40,0,0" VerticalAlignment="Top" Height="23" Width="58"/>
+            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="457,40,0,0" VerticalAlignment="Top" Height="23" Width="58" IsChecked="True"/>
             <RadioButton Content="No" HorizontalAlignment="Left" Margin="565,40,0,0" VerticalAlignment="Top" Height="23" Width="52"/>
 
 

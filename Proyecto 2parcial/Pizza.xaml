@@ -32,11 +32,11 @@
             <TextBox x:Name="infonota" HorizontalAlignment="Left" Height="15" Margin="199,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" TextChanged="infonota_TextChanged"/>
 
             <TextBlock HorizontalAlignment="Left" Margin="384,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="31" Width="59"><Run Text="Orilla de queso"/><Run Text=":"/></TextBlock>
-            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="474,36,0,0" VerticalAlignment="Top" Height="32" Width="36"/>
+            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="474,36,0,0" VerticalAlignment="Top" Height="32" Width="36"  IsChecked="True"/>
             <RadioButton Content="No" HorizontalAlignment="Left" Margin="583,37,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Height="31" Width="58"/>
 
             <TextBlock HorizontalAlignment="Left" Margin="384,73,0,0" TextWrapping="Wrap" Text="Ingredientes" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="21" Width="85"/>
-            <CheckBox Content="Salami" HorizontalAlignment="Left" Margin="384,99,0,0" VerticalAlignment="Top" Width="59" Height="15"/>
+            <CheckBox Content="Salami" HorizontalAlignment="Left" Margin="384,99,0,0" VerticalAlignment="Top" Width="59" Height="15" IsChecked="True"/>
             <CheckBox Content="Chorizo" HorizontalAlignment="Left" Margin="474,100,0,0" VerticalAlignment="Top" Height="14" Width="77"/>
             <CheckBox Content="Jamon" HorizontalAlignment="Left" Margin="583,100,0,0" VerticalAlignment="Top" Height="14" Width="58"/>
             <CheckBox Content="Pepperoni" HorizontalAlignment="Left" Margin="384,134,0,0" VerticalAlignment="Top" Height="23" Width="85"/>

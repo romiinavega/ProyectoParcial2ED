@@ -34,7 +34,7 @@
             <TextBlock HorizontalAlignment="Left" Margin="373,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Text="Baguette:" Height="19" Width="55"/>
 
             <TextBlock HorizontalAlignment="Left" Margin="373,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.633,-1.562" Height="24" Width="74"><Run Text="Ingredientes"/><Run Text=":"/></TextBlock>
-            <CheckBox Content="Pollo" HorizontalAlignment="Left" Margin="373,119,0,0" VerticalAlignment="Top" Width="59" Height="22"/>
+            <CheckBox Content="Pollo" HorizontalAlignment="Left" Margin="373,119,0,0" VerticalAlignment="Top" Width="59" Height="22" IsChecked="True"/>
             <CheckBox Content="Camaron" HorizontalAlignment="Left" Margin="463,121,0,0" VerticalAlignment="Top" Height="20" Width="72"/>
             <CheckBox Content="Atun" HorizontalAlignment="Left" Margin="575,121,0,0" VerticalAlignment="Top" Height="20" Width="60"/>
             <CheckBox Content="Salmon" HorizontalAlignment="Left" Margin="373,146,0,0" VerticalAlignment="Top" Height="19" Width="68"/>
@@ -43,7 +43,7 @@
             <TextBlock x:Name="restriccion" HorizontalAlignment="Left" Margin="373,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" Height="35"><Run Text="*"/><Run Text="Se deben de llenar todos los campos para continuar"/></TextBlock>
             <Button Content="Agregar" HorizontalAlignment="Left" Margin="419,252,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click" Height="24"/>
             <Button Content="Cancelar" HorizontalAlignment="Left" Margin="586,252,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_1" Height="24" RenderTransformOrigin="0.094,-0.833"/>
-            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="443,51,0,0" VerticalAlignment="Top" Width="80" Height="18"/>
+            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="443,51,0,0" VerticalAlignment="Top" Width="80" Height="18"  IsChecked="True"/>
             <RadioButton Content="No" HorizontalAlignment="Left" Margin="538,51,0,0" VerticalAlignment="Top" Height="25" Width="52"/>
 
 
