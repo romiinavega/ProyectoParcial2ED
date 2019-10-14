@@ -40,9 +40,9 @@
             <TextBlock x:Name="restriccion" HorizontalAlignment="Left" Margin="397,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="287" Height="29"><Run Text="*"/><Run Text="Se deben de llenar todos los campos para continuar"/></TextBlock>
             <Button Content="Agregar" HorizontalAlignment="Left" Margin="454,271,0,0" VerticalAlignment="Top" Width="66" Click="Button_Click" Height="27"/>
             <Button Content="Cancelar" HorizontalAlignment="Left" Margin="605,271,0,0" VerticalAlignment="Top" Width="67" Click="Button_Click_1" Height="27"/>
-            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="454,58,0,0" VerticalAlignment="Top" Width="80" Height="26"/>
+            <RadioButton Content="Si" HorizontalAlignment="Left" Margin="454,58,0,0" VerticalAlignment="Top" Width="80" Height="26" IsChecked="True"/>
             <RadioButton Content="No" HorizontalAlignment="Left" Margin="552,58,0,0" VerticalAlignment="Top" Height="28" Width="68"/>
-            <CheckBox Content="Oreo" HorizontalAlignment="Left" Margin="357,125,0,0" VerticalAlignment="Top" Height="13" Width="63"/>
+            <CheckBox Content="Oreo" HorizontalAlignment="Left" Margin="357,125,0,0" VerticalAlignment="Top" Height="13" Width="63" IsChecked="True"/>
             <CheckBox Content="Chispas" HorizontalAlignment="Left" Margin="442,125,0,0" VerticalAlignment="Top" Height="13" Width="63"/>
             <CheckBox Content="Nieve" HorizontalAlignment="Left" Margin="543,125,0,0" VerticalAlignment="Top" Height="29" Width="66"/>
 
